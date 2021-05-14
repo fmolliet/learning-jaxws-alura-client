@@ -1,6 +1,12 @@
 package br.com.caelum.estoque.cliente;
 
 public class TesteClienteSoap {
+	
+	/*
+	 * Comando para gerar as classes
+	 * wsimport -s src -p br.com.caelum.estoque.cliente http://localhost:8080/estoque?wsdl
+	 * 
+	 */
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
